@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+.horizontal-scroll-container {
+  scroll-behavior: smooth;
+}
