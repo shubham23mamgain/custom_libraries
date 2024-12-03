@@ -1,3 +1,5 @@
+import { imagesSection } from "../data/imagesSection";
+import { infoCards } from "../data/infoCards";
 import { memories } from "../data/memoriesImages";
 import Marquee from "./Marquee";
 
@@ -45,11 +47,11 @@ const Memories = () => {
                   "translateX(0px) translateY(0px) translateZ(-50px) rotateX(0deg) rotateY(-20deg) rotateZ(10deg) scale(1.5)",
               }}
             >
-              {memories.map((data, idx) => (
+              {infoCards.map((data, idx) => (
                 <img
                   key={idx}
-                  src={data.img}
-                  alt={data.name}
+                  src={data.url}
+                  alt={data.title}
                   className="mx-auto h-full w-3/4 cursor-pointer rounded-xl border border-neutral-300 transition-all duration-300 hover:ring-1 hover:ring-neutral-300"
                 />
               ))}
@@ -70,11 +72,11 @@ const Memories = () => {
                   "translateX(0px) translateY(0px) translateZ(-50px) rotateX(0deg) rotateY(-20deg) rotateZ(10deg) scale(1.5)",
               }}
             >
-              {memories.map((data, idx) => (
+              {imagesSection.map((data, idx) => (
                 <img
                   key={idx}
-                  src={data.img}
-                  alt={data.name}
+                  src={data.url}
+                  alt={data.id}
                   className="mx-auto h-full w-3/4 cursor-pointer rounded-xl border border-neutral-300 transition-all duration-300 hover:ring-1 hover:ring-neutral-300"
                 />
               ))}

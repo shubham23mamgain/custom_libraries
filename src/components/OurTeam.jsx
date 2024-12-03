@@ -1,14 +1,14 @@
 const items = [
   {
     id: "1",
-    url: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+    url: "https://wallpapers.com/images/featured/goku-ultra-instinct-pictures-cgebo5hue38ak78m.jpg",
     title: "Shubham Mamgain",
     description: "COO & Co-Founder",
     tags: ["Frontend", "Backend", "Flutter", "AWS", "React native"],
   },
   {
     id: "2",
-    url: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?cs=srgb&dl=pexels-justin-shaifer-501272-1222271.jpg&fm=jpg",
+    url: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/10/pain-six-paths-from-naruto.jpg",
     title: "Abhishek Bahuguna",
     description: "Lead Frontend Developer",
     tags: [
@@ -21,7 +21,7 @@ const items = [
   },
   {
     id: "3",
-    url: "https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg",
+    url: "https://motionbgs.com/media/2331/mystique-of-gojo-satoru.jpg",
     title: "Shashank Negi",
     description: "Lead Backend Developer",
     tags: [
