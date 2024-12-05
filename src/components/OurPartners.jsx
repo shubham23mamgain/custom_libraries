@@ -1,6 +1,6 @@
 const OurPartners = () => {
   return (
-    <div>
+    <div className="mt-40">
       <h1 className="text-7xl font-bold text-blue-500 flex justify-center items-center">
         Our Partners
       </h1>
