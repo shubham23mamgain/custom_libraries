@@ -1,5 +1,6 @@
 // import CreativeScroll from "./components/AllComponents";
 
+import Roadmap from "./components/Roadmap";
 import StickyElement from "./components/StickyElement";
 import HomePage from "./pages/HomePage";
 
@@ -8,6 +9,7 @@ const App = () => {
     <div className="">
       <StickyElement />
       <HomePage />
+      <Roadmap />
     </div>
   );
 };
